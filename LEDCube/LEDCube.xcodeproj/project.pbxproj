@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404AD3C11C5F32980052E113 /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404AD3B81C5F32980052E113 /* Vector3D.cpp */; };
+		404AD3C21C5F32980052E113 /* Matrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404AD3BA1C5F32980052E113 /* Matrix4.cpp */; };
+		404AD3C31C5F32980052E113 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404AD3BC1C5F32980052E113 /* window.cpp */; };
+		404AD3C41C5F32980052E113 /* LEDCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404AD3BE1C5F32980052E113 /* LEDCube.cpp */; };
+		404AD3C51C5F32980052E113 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 404AD3BF1C5F32980052E113 /* main.cpp */; };
+		404AD3C81C5F33630052E113 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404AD3C71C5F33630052E113 /* GLUT.framework */; };
+		404AD3CA1C5F336A0052E113 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404AD3C91C5F336A0052E113 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		404AD3AC1C5F32040052E113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		404AD3AE1C5F32040052E113 /* LEDCube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LEDCube; sourceTree = BUILT_PRODUCTS_DIR; };
+		404AD3B81C5F32980052E113 /* Vector3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3D.cpp; sourceTree = "<group>"; };
+		404AD3B91C5F32980052E113 /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3D.h; sourceTree = "<group>"; };
+		404AD3BA1C5F32980052E113 /* Matrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4.cpp; sourceTree = "<group>"; };
+		404AD3BB1C5F32980052E113 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		404AD3BC1C5F32980052E113 /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
+		404AD3BD1C5F32980052E113 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		404AD3BE1C5F32980052E113 /* LEDCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LEDCube.cpp; sourceTree = "<group>"; };
+		404AD3BF1C5F32980052E113 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		404AD3C01C5F32980052E113 /* LEDCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDCube.h; sourceTree = "<group>"; };
+		404AD3C61C5F32E60052E113 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		404AD3C71C5F33630052E113 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		404AD3C91C5F336A0052E113 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404AD3AB1C5F32040052E113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404AD3CA1C5F336A0052E113 /* OpenGL.framework in Frameworks */,
+				404AD3C81C5F33630052E113 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404AD3A51C5F32040052E113 = {
+			isa = PBXGroup;
+			children = (
+				404AD3C91C5F336A0052E113 /* OpenGL.framework */,
+				404AD3C71C5F33630052E113 /* GLUT.framework */,
+				404AD3B01C5F32040052E113 /* LEDCube */,
+				404AD3AF1C5F32040052E113 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		404AD3AF1C5F32040052E113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404AD3AE1C5F32040052E113 /* LEDCube */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404AD3B01C5F32040052E113 /* LEDCube */ = {
+			isa = PBXGroup;
+			children = (
+				404AD3C61C5F32E60052E113 /* main.h */,
+				404AD3B81C5F32980052E113 /* Vector3D.cpp */,
+				404AD3B91C5F32980052E113 /* Vector3D.h */,
+				404AD3BA1C5F32980052E113 /* Matrix4.cpp */,
+				404AD3BB1C5F32980052E113 /* Matrix4.h */,
+				404AD3BC1C5F32980052E113 /* window.cpp */,
+				404AD3BD1C5F32980052E113 /* Window.h */,
+				404AD3BE1C5F32980052E113 /* LEDCube.cpp */,
+				404AD3BF1C5F32980052E113 /* main.cpp */,
+				404AD3C01C5F32980052E113 /* LEDCube.h */,
+			);
+			path = LEDCube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404AD3AD1C5F32040052E113 /* LEDCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404AD3B51C5F32040052E113 /* Build configuration list for PBXNativeTarget "LEDCube" */;
+			buildPhases = (
+				404AD3AA1C5F32040052E113 /* Sources */,
+				404AD3AB1C5F32040052E113 /* Frameworks */,
+				404AD3AC1C5F32040052E113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDCube;
+			productName = LEDCube;
+			productReference = 404AD3AE1C5F32040052E113 /* LEDCube */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404AD3A61C5F32040052E113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jessie;
+				TargetAttributes = {
+					404AD3AD1C5F32040052E113 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 404AD3A91C5F32040052E113 /* Build configuration list for PBXProject "LEDCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 404AD3A51C5F32040052E113;
+			productRefGroup = 404AD3AF1C5F32040052E113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404AD3AD1C5F32040052E113 /* LEDCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404AD3AA1C5F32040052E113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404AD3C41C5F32980052E113 /* LEDCube.cpp in Sources */,
+				404AD3C31C5F32980052E113 /* window.cpp in Sources */,
+				404AD3C11C5F32980052E113 /* Vector3D.cpp in Sources */,
+				404AD3C51C5F32980052E113 /* main.cpp in Sources */,
+				404AD3C21C5F32980052E113 /* Matrix4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		404AD3B31C5F32040052E113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		404AD3B41C5F32040052E113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		404AD3B61C5F32040052E113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+			};
+			name = Debug;
+		};
+		404AD3B71C5F32040052E113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404AD3A91C5F32040052E113 /* Build configuration list for PBXProject "LEDCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404AD3B31C5F32040052E113 /* Debug */,
+				404AD3B41C5F32040052E113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404AD3B51C5F32040052E113 /* Build configuration list for PBXNativeTarget "LEDCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404AD3B61C5F32040052E113 /* Debug */,
+				404AD3B71C5F32040052E113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404AD3A61C5F32040052E113 /* Project object */;
+}
